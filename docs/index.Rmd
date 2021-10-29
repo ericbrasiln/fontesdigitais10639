@@ -1,0 +1,362 @@
+---
+title: "Fontes e repositórios online para pesquisa e ensino da Lei 10.639/03"
+author: "Eric Brasil"
+institution: "(IHM/UNILAB)"
+date: "`r Sys.Date()`"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["css/default.css", "css/mmp.css" , "css/mmp-fonts.css"]
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+layout: true
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.align = "center",
+	message = FALSE,
+	warning = FALSE,
+	cache = FALSE
+)
+```
+
+```{r eval=FALSE, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(widgetframe)
+```
+---
+class: inverse, center, middle
+
+# Uma breve reflexão sobre tecnologia e a prática histórica
+
+---
+class: inverse2, center, middle
+
+## Acesso à informação e conteúdos abundantes: então qual papel de profissionais da história na era digital?
+<br>
+--
+
+## Desigualdades, letramento digital e crítica dos meios, métodos e ferramentas
+<br>
+--
+
+## A sala de aula como laboratório da história digital?
+
+---
+class: inverse, center, middle
+
+## Levantamento bibliográfico on-line
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/lib.gif")
+```
+
+---
+class: inverse2, center, middle
+
+## O que é? Pra que fazer?
+--
+
+## Como fazer?
+
+---
+class: inverse2, center, middle
+
+### Há diferença entre realizar um levantamento bibliográfico **analogicamente**...
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/bob.gif")
+```
+
+---
+class: inverse2, center, middle
+
+### e **digitalmente**?
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/bob2.gif")
+```
+
+---
+class: inverse, center, middle
+
+# Dá um google!
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://media1.giphy.com/media/ymKIz3zBieFNK/giphy.gif?cid=ecf05e47sn2ol54xvowdg2mnxr9i69iz9zbx71p2x8085l8v&rid=giphy.gif&ct=g")
+```
+
+---
+class: inverse2, center, middle
+
+## **Apenas um buscador de conteúdo?**
+
+[Google acha que ferramenta em mão negra é uma arma](https://tarciziosilva.com.br/blog/google-acha-que-ferramenta-em-mao-negra-e-uma-arma/), de [Tarcizio Silva](https://twitter.com/tarciziosilva)
+
+```{r, out.width="25%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/imagens/g1.jpg")
+```
+
+---
+class: inverse2, middle, center
+
+```{r, out.width="45%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/imagens/gslogo.png")
+```
+
+---
+class: inverse2, middle, center
+
+## Dicas:
+--
+
+### ✅️ Faça um perfil, pois assim a partir de suas buscas e seus favoritos, o Scholar vai te indicar artigos relacionados;
+<br>
+--
+
+### ✅️ Indexador que engloba revistas avaliadas por pares, livros, citações, etc.
+<br>
+--
+
+### ✅️ Use `operadores` para filtrar e refinar sua busca.
+
+---
+class: inverse2, middle, center
+
+## Operadores
+--
+
+### **AND** : busca referências com duas palavras -  `história AND digital`
+<br>
+--
+
+### **OR**: uma palavra ou outra - `história OR sociologia`
+<br>
+--
+
+### **-** (negativo): exclui termo da busca - `História digital -pública`
+<br>
+--
+
+### **" "** (expressão enter aspas duplas): busca a expressão exata - `"métodos digitais"`
+
+---
+class: inverse2, middle, center
+
+## Operadores
+--
+
+### É possível combinar os parâmetros: `história OR sociologia AND digital` ou `cidadania AND pós-abolição AND carnaval -"rio de janeiro"` ou ainda `author:ALBUQUERQUE "cidadania negra" AND Salvador`
+<br>
+--
+
+### **allintitle:** - fazer a busca apenas no título - `allintitle: história digital`
+<br>
+--
+
+### **author:** - buscar autor específico - `author:Fanon, F.`
+<br>
+--
+
+### **Filtros da busca** (localizados no lado esquerdo):
+<br>
+--
+
+Dicas inspiradas pela [thread no Twitter de Tarcizio Silva](https://twitter.com/tarciziosilva/status/1303347668123635714)
+
+---
+class: inverse, middle, center
+## 🤖️ A batalha pela ciência aberta e livre
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/al-sh.gif")
+```
+
+---
+class: inverse2, middle, center
+
+```{r, out.width="10%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/imagens/sh-logo.png")
+```
+--
+
+## [Sci-Hub](https://sci-hub.tw/)
+<br>
+--
+
+## [Library Genesis](http://gen.lib.rus.ec/)
+<br>
+--
+
+## [Internet Archive](https://archive.org/) e [Wayback Machine](https://web.archive.org/)
+
+---
+class: inverse, middle, center
+
+## Repositórios online de fontes
+
+```{r, out.width="60%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/shuri.gif")
+```
+
+---
+class: inverse2, middle, center
+
+## [HDB da Biblioteca Nacional](http://memoria.bn.br/hdb/periodico.aspx) 
+<br>
+--
+
+##[FamilySearch](https://www.familysearch.org/pt/)
+<br>
+--
+
+##[JusBrasil](https://www.jusbrasil.com.br/home)
+<br>
+
+---
+class: inverse2, middle, center
+
+##[Legislação - Câmara dos Deputados](https://www.camara.leg.br/legislacao)
+<br>
+--
+
+##[Biblioteca digital do Senado](https://www2.senado.leg.br/bdsf/)
+<br>
+
+---
+class: inverse2, middle, center
+
+##[Casa Comum](http://casacomum.org/cc/arquivos)
+<br>
+--
+
+##[Memórias d'África e d'Oriente](http://memoria-africa.ua.pt/)
+
+---
+class: inverse, middle, center
+
+# Materiais e recursos para pesquisa e ensino
+<br>
+
+```{r, out.width="30%"}
+knitr::include_graphics("https://ericbrasiln.github.io/ferramentas_digitais_UNILAB/gifs/cb.gif")
+```
+
+---
+class: inverse2, middle, center
+
+## Textos
+--
+
+### [Domínio Público](http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp)
+<br>
+
+### Séries especiais da Biblioteca Consuelo Pondé:
+
+[Experiências Quilombolas](http://www.bvconsueloponde.ba.gov.br/modules/conteudo/conteudo.php?conteudo=149)
+<br>
+[Trezena da Liberdade](http://www.bvconsueloponde.ba.gov.br/modules/conteudo/conteudo.php?conteudo=99)
+<br>
+[O dia seguinte](http://www.bvconsueloponde.ba.gov.br/modules/conteudo/conteudo.php?conteudo=184)
+
+---
+class: inverse2, middle, center
+
+## Mapas
+
+<br>
+### [Salvador escravista](https://www.salvadorescravista.com/)
+
+---
+class: inverse2, middle, center
+
+## Fotos
+
+<br>
+### [Brasiliana Fotográfica](https://brasilianafotografica.bn.gov.br/)
+
+---
+class: inverse2, middle, center
+## Banco de dados
+
+<br>
+### [Slave Voyages](https://www.slavevoyages.org/)
+
+---
+class: inverse2, middle, center
+
+## Jornais
+
+<br>
+### [Negrito](http://negritos.com.br/)
+
+---
+class: inverse2, middle, center
+
+## Exposições
+
+<br>
+### Exposição [Moçambique: Independência e Nação no AEL](https://www.expo.ifch.unicamp.br/portal/mocambique)
+
+---
+class: inverse2, middle, center
+
+## Filmes
+<br>
+### [Memórias do Cativeiro (2005)](https://www.youtube.com/watch?v=JEw4k8Wpofw)
+### [Jongos, Calangos e Folias (2007)](https://www.youtube.com/watch?v=-0OouM3F0SU)
+### [Versos e Cacetes (2009)](https://www.youtube.com/watch?v=JEw4k8Wpofw)
+### [Passados Presentes (2011)](https://www.youtube.com/watch?v=-0OouM3F0SU)
+### [Playlist Filmes africanos](https://www.youtube.com/watch?v=8-JUqBFcd5Q&list=PLnFS5Z5uj5D8FOC44rAoF132GVoEAoF_w) do grupo Áfricas
+
+---
+class: inverse2, middle, center
+
+## Variados
+
+<br>
+### [Biblioteca Digital Mundial](https://www.wdl.org/pt/)
+
+---
+class: inverse2, middle, center
+
+# Eric Brasil
+
+### [Email: **profericbrasil@unilab.edu.br**](mailto:profericbrasil@unilab.edu.br) 
+
+### [Twitter:**@ericbrasiln**](http://www.twitter.com/ericbrailn) 
+
+### [website: **ericbrasiln.github.io**](https://ericbrasiln.github.io/)
+
+---
+class: inverse2, middle, center
+
+# **Obrigado, gente!**
+
+.pull-left[
+```{r, out.width="100%"}
+knitr::include_graphics("https://extra.globo.com/incoming/23459478-c2d-e53/w976h550-PROP/76651138_rsrio-de-janeiro-rj08-05-2017bibliotecas-da-cidadebiblioteca-nacional.-foto.jpg")
+```
+]
+.pull-right[
+## Agradecimentos especiais:
+<br>
+
+### À Fábia pelo convite, aos monitores pela parceria e todos os alunos e alunas.
+<br>
+
+]
+
