@@ -325,21 +325,18 @@ class: inverse2, middle, center
 ---
 class: inverse2, middle, center
 
-## Variados
-
+## Podcasts
 <br>
-### [Biblioteca Digital Mundial](https://www.wdl.org/pt/)
+
+### [Atlântico Negro Podcast](https://open.spotify.com/show/6JrvNryVN6JvVmr8Gq5U2H?si=Ghmtn5AzRZa2Hk41UdNLJA)
 
 ---
 class: inverse2, middle, center
 
-# Eric Brasil
+## Variados
 
-### [Email: **profericbrasil@unilab.edu.br**](mailto:profericbrasil@unilab.edu.br) 
-
-### [Twitter:**@ericbrasiln**](http://www.twitter.com/ericbrailn) 
-
-### [website: **ericbrasiln.github.io**](https://ericbrasiln.github.io/)
+<br>
+### [Biblioteca Digital Mundial](https://www.wdl.org/pt/)
 
 ---
 class: inverse2, middle, center
@@ -355,8 +352,19 @@ knitr::include_graphics("https://extra.globo.com/incoming/23459478-c2d-e53/w976h
 ## Agradecimentos especiais:
 <br>
 
-### À Fábia pelo convite, aos monitores pela parceria e todos os alunos e alunas.
+### À Fábia pelo convite, aos monitores pela parceria e todos os alunos e alunas pela atenção.
 <br>
 
 ]
+
+---
+class: inverse2, middle, center
+
+# Eric Brasil
+
+### [Email: **profericbrasil@unilab.edu.br**](mailto:profericbrasil@unilab.edu.br) 
+
+### [Twitter:**@ericbrasiln**](http://www.twitter.com/ericbrailn) 
+
+### [website: **ericbrasiln.github.io**](https://ericbrasiln.github.io/)
 
